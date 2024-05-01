@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#titulo_principal{
+    color:#03045e;
+    text-align: center;
+}
+h2{
+    color: #0077b6;
+    text-align: center;
+}
+
+.tarjeta{
+    border: 5px solid #90e0ef;
+    background-color: #caf0f8 ;
+    text-align: center;
+    padding: 40px;
+    margin: 15px 115px;
+}
+
+.tarjeta:hover{
+    background-color: #9ad4cf;
+    border: solid #a3d6f1;
+}
+
+
+div h1{
+    text-align: left;
+}
+
+body{
+    background-color:#caf0f8;
+}
+
+
+/*Configuracion de un menu de navegacion basico*/
+ul{
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li{
+    float: left; /*<<-- Para colocar cada link al lado del otro*/
+}
+
+li a{
+    display: block;
+    color: rgb(30, 65, 221);
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+}
+
+li a:hover{
+    color: rgb(18, 67, 180);
+    background-color: rgb(161, 216, 241);
+}
+
+footer{
+    text-align: center;
+    background-color: #ffffff;
+    margin: 30px;
+    padding: 4px;   
+}
